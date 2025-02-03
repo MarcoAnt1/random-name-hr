@@ -79,6 +79,19 @@ button:hover {
     color: #aaa;
 }
 
+#giphy-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#giphyImage {
+    max-width: 200px;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
 .overlay {
     display: none;
     position: fixed;
@@ -111,3 +124,4 @@ button:hover {
     font-weight: bold;
     margin: 0;
 }
+

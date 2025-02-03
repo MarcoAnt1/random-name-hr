@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script> </head>
     <title>HR Planning Committee</title>
 </head>
@@ -10,13 +10,16 @@
     <div class="content-wrapper">
         <h1>HR Planning Committee</h1>
         <h2>Door Prize</h2>
-        <textarea id="nameList" placeholder="Enter names, separated by commas"></textarea>
+        <div id="giphy-container">
+            <img id="giphyImage" src="./images/penguin-playing-drums-gif.gif" alt="Gift GIF">
+        </div>
+        <textarea id="nameList" placeholder="Enter names separated by new lines"></textarea>
         <button id="randomNameButton">Draw</button>
         <div id="overlay" class="overlay" ></div>
         <div id="namePopup" class="name-popup">
             <p id="displayName"></p>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>

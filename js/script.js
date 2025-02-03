@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const chosenName = names[randomIndex];
         
         displayName.textContent = chosenName;
+
         namePopup.style.display = "block";
         overlay.style.display = "block";
 
